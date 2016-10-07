@@ -1,0 +1,21 @@
+<web-app>
+    <!--mapeo del primer servlet: Hola mundo  -->
+    <servlet>
+        <servlet-name>RegistroServlet</servlet-name>
+        <servlet-class>servlets.RegistroServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistroServlet</servlet-name>
+        <url-pattern>/RegistroServlet</url-pattern>
+    </servlet-mapping>
+   <servlet>
+        <servlet-name>AbonarServlet</servlet-name>
+        <servlet-class>servlets.AbonarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AbonarServlet</servlet-name>
+        <url-pattern>/AbonarServlet</url-pattern>
+    </servlet-mapping>
+     <!--mapeo del segundo servlet: formulario -->
+     
+</web-app>
